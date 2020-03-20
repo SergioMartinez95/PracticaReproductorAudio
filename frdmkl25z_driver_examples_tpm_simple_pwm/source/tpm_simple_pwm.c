@@ -110,7 +110,7 @@ int main(void)
             PRINTF("\r\nPlease enter a value to update the Duty cycle:\r\n");
             PRINTF("Note: The range of value is 0 to 9.\r\n");
             PRINTF("For example: If enter '5', the duty cycle will be set to 50 percent.\r\n");
-            PRINTF("Value:");
+            PRINTF("Value: ");
             getCharValue = GETCHAR() - 0x30U;
             PRINTF("%d", getCharValue);
             PRINTF("\r\n");
